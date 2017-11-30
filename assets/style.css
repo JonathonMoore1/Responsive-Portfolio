@@ -48,6 +48,27 @@ h1 {
 	font-size: 30px;	
 }
 
+a {
+	color: #d5e1fe;
+}
+
+a:hover {
+	color: #9a94a1;
+}
+
+a:active {
+	color: darkslategray;
+	background-color: darkorange;
+	border-radius: 10px;
+	/* padding: 1px; */
+	/* border-width: 2px; */
+	/* border-color: black; */
+}
+
+.slipsum:hover {
+	color: red;
+}
+
 #page-links {
 	
 	position: absolute;
@@ -307,6 +328,23 @@ input {
 	background-color: #4aaaa5;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
+	color: #ffffff;
+	border: darkgray;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+.submit:hover {
+	background-color: #4aaaa5;
+	padding: 1px;
+	border: 2px;
+	border-style: solid;
+	border-color: darkgray;
+}
+
+.submit:active {
+	color: #d5e1fe;
+	background-color: darkorange;
 }
 
 .contact-form {
@@ -342,7 +380,7 @@ input {
 	}
 
 	.about {
-		width: 85%;
+		width: 80%;
 		margin: 30px;
 		padding: 30px;
 	}
@@ -377,7 +415,7 @@ input {
 	}
 
 	.connect {
-		width: 85%;
+		width: 80%;
 		margin: 0px 30px 30px 30px;
 		padding: 30px;
 		float: left;
